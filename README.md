@@ -41,22 +41,14 @@ At the heart of The Boi's code is a state machine. The potential states are as f
 * START - initial state
 * RANDOM - decides the next movement based on input from sensors
 * REVERSE - calls function to reverse robot and then decides a random turn to be performed
-
-GOAL_FIND - implemented when robot has captured a ball, similar to RANDOM but acknowledges input from the IR recievers
-
-TO_GOAL - once the goal is spotted this state is implemented to drive toward the goal
-
-FIRE - reverse wheels and waterwheel to shoot out ball
-
-ONE80 - 180 degree turn
-
-LEFT_90 - 90 degree left turn
-
-RIGHT_90 - 90 degree right turn
-
-SLIGHT_L - slight left turn
-
-SLIGHT_R - slight right turn
+* GOAL_FIND - implemented when robot has captured a ball, similar to RANDOM but acknowledges input from the IR recievers
+* TO_GOAL - once the goal is spotted this state is implemented to drive toward the goal
+* FIRE - reverse wheels and waterwheel to shoot out ball
+* ONE80 - 180 degree turn
+* LEFT_90 - 90 degree left turn
+* RIGHT_90 - 90 degree right turn
+* SLIGHT_L - slight left turn
+* SLIGHT_R - slight right turn
 
 The Boi drives straight until it times out (5 seconds) or detects an obstacle/other robot with its IR or microswitch sensors. Upon obstacle detection, The Boi will reverse and execute a random turn.
 
