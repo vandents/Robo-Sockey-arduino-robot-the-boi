@@ -36,7 +36,7 @@ void loop(){
     case START:
     /*Serial.println("START");
     Serial.println();*/
-    //delay(69);
+    //delay();
 
     start_function();
     
