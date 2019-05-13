@@ -38,11 +38,9 @@ The rest of The Boi is composed of 2 6V motors, 6 AA batteries, a continuous ser
 
 At the heart of The Boi's code is a state machine. The potential states are as follows: 
 
-START - initial state
-
-RANDOM - decides the next movement based on input from sensors
-
-REVERSE - calls function to reverse robot and then decides a random turn to be performed
+* START - initial state
+* RANDOM - decides the next movement based on input from sensors
+* REVERSE - calls function to reverse robot and then decides a random turn to be performed
 
 GOAL_FIND - implemented when robot has captured a ball, similar to RANDOM but acknowledges input from the IR recievers
 
