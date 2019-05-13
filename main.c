@@ -1,4 +1,31 @@
-#include "robot.h"      //include custom library
+/* -------------------------------------------------------------------------------
+* Authors: Nicolas Duley, Zakkaria Hales, Scott VandenToorn, Ciana Witherell
+* Class: EGR10703
+* Date: xx/xx/2019
+* Instructor: Professor Stevens
+* Program: Robo Sockey "The Boi" Final Code
+* Description: At the heart of The Boi's code is a state machine. The potential
+*              states are as follows: START, RANDOM, REVERSE, GOAL_FIND, TO_GOAL, FIRE, ONE80,
+*              LEFT_90, RIGHT_90, SLIGHT_L and SLIGHT_R.
+*
+*              The Boi drives straight until it times out (5 seconds) or detects an 
+*              obstacle/other robot with its IR or microswitch sensors. Upon obstacle
+*              detection, The Boi will reverse and execute a random turn.
+*
+*              The Boi has a "waterwheel" that continuously spins forward in hopes 
+*              of gathering a ball. If The Boi detects that it has gathered a ball 
+*              it will go into goal finding mode. When in goal finding mode it will 
+*              continue with its normal random movement until it detects the IR beam 
+*              mounted above the goal with its array of IR recievers. Once it detects 
+*              the IR beam, The Boi will turn toward the goal and drive until it is
+*              underneath the goalpost. Once the upright facing IR sensors detect
+*              that it is under the goal, it will enter scoring mode where the 
+*              waterwheel servo reverses and the wheels reverse. After it has scored
+*              the ball it will go back to random movement.
+* -------------------------------------------------------------------------------- */
+
+
+#include "robot.h"            //include custom library
 #include <Servo.h>            //include servo library
 
 Servo servoc;                 //water wheel servo
