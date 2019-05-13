@@ -14,7 +14,7 @@ My team's robot, named "The Boi", implemented many original design features. Our
 
 [60mm Wheels](https://www.pololu.com/product/1421 "Pololu - Wheels")
 
-2x - [Microswitches](https://www.pololu.com/product/1403 "Pololu - Microswitches")
+2x - [Microswitch](https://www.pololu.com/product/1403 "Pololu - Microswitches")
 
 [Screws](https://www.pololu.com/product/2716 "Pololu - Screws")
 
@@ -37,16 +37,27 @@ The Boi navigates the course using 4 IR sensors, 5 IR recievers and 2 microswitc
 The rest of The Boi is composed of 2 6V motors, 6 AA batteries, a continuous servo, an H-Bridge, an Arduino Uno and a number of custom milled ABS plastic parts.
 
 At the heart of The Boi's code is a state machine. The potential states are as follows: 
+
 START - initial state, 
+
 RANDOM - decides the next movement based on input from sensors, 
+
 REVERSE - calls function to reverse robot and then decides a random turn to be performed, 
+
 GOAL_FIND - implemented when robot has captured a ball, similar to RANDOM but acknowledges input from the IR recievers, 
+
 TO_GOAL - once the goal is spotted this state is implemented to drive toward the goal, 
+
 FIRE - reverse wheels and waterwheel to shoot out ball, 
+
 ONE80 - 180 degree turn, 
+
 LEFT_90 - 90 degree left turn, 
+
 RIGHT_90 - 90 degree right turn, 
+
 SLIGHT_L - slight left turn, 
+
 SLIGHT_R - slight right turn
 
 The Boi drives straight until it times out (5 seconds) or detects an obstacle/other robot with its IR or microswitch sensors. Upon obstacle detection, The Boi will reverse and execute a random turn.
