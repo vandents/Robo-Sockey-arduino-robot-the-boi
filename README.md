@@ -3,7 +3,7 @@ GVSU's Robo Sockey competition, a mix between soccer and hockey, is a semester l
 
 My team's robot, named "The Boi", implemented many original design features. Our robot not only obtained first place, but also earned the Design Innovation Award.
 
-## Look at that wiring! <3
+## Look at that wiring!
 ![alt text](https://i.imgur.com/jiaLRZP.jpg "The Boi")
 
 ## Parts List
