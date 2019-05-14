@@ -1,3 +1,7 @@
+/* -------------------------------------------------------------------------------
+* Macros, global variables, structures and function prototypes.
+* -------------------------------------------------------------------------------- */
+
 #define SPEED_HIGH 99             //fast motor speed
 #define SPEED_MED 76              //medium motor speed
 #define SPEED_STOP 0              //motor speed 0
