@@ -18,3 +18,6 @@ My team's robot, named "The Boi", implemented many original design features. Our
 * [Arduino Uno](https://www.amazon.com/Elegoo-EL-CB-001-ATmega328P-ATMEGA16U2-Arduino/dp/B01EWOE0UU/ref=sr_1_4?keywords=arduino+uno&qid=1557781051&s=gateway&sr=8-4 "Amazon - Arduino Uno")
 * [10-80cm IR Sensor](https://www.pololu.com/product/136 "Pololu - IR Sensor")
 * 3x - [4-30cm IR Sensor](https://www.pololu.com/product/2464 "Pololu - IR Sensor")
+
+## Haphazard Software Flow Diagram
+![alt text](https://i.imgur.com/BsVE8OL.jpg "Software Flow Diagram")
