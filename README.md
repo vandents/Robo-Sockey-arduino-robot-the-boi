@@ -7,6 +7,7 @@ My team's robot, named "The Boi", implemented many original design features. Our
 ![alt text](https://i.imgur.com/jiaLRZP.jpg "The Boi")
 
 ### Parts List
+***
 * 2x - [6V Micro Motors](https://www.pololu.com/product/1101 "Pololu - 6V Motors")
 * 2x - [Motor Brackets](https://www.pololu.com/product/989 "Pololu - Brackets")
 * [60mm Wheels](https://www.pololu.com/product/1421 "Pololu - Wheels")
@@ -19,5 +20,3 @@ My team's robot, named "The Boi", implemented many original design features. Our
 * [10-80cm IR Sensor](https://www.pololu.com/product/136 "Pololu - IR Sensor")
 * 3x - [4-30cm IR Sensor](https://www.pololu.com/product/2464 "Pololu - IR Sensor")
 
-### Haphazard Software Flow Diagram
-![alt text](https://i.imgur.com/BsVE8OL.jpg "Software Flow Diagram")
