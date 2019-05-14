@@ -1,7 +1,7 @@
 /* -------------------------------------------------------------------------------
 * Authors: Nicolas Duley, Zakkaria Hales, Scott VandenToorn, Ciana Witherell
 * Class: EGR10703
-* Date: xx/xx/2019
+* Date: 12/11/2018
 * Instructor: Professor Stevens
 * Program: Robo Sockey "The Boi" Final Code
 * Description: At the heart of The Boi's code is a state machine. The potential
